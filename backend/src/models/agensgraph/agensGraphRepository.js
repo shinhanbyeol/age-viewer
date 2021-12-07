@@ -22,12 +22,13 @@ import PgConfig from '../../config/Pg'
 
 require('@bitnine-oss/ag-driver');
 import pg from 'pg';
+import parseSsl from 'pg-ssl';
 import types from 'pg-types';
 import {setAGETypes} from '../../tools/AGEParser';
 
 
 class AgensGraphRepository {
-    constructor({host, port, database, graph, user, password, flavor} = {}) {
+    constructor({host, port, database, graph, user, password, flavor, sslmode, ca, key ,cert} = {}) {
         if (!flavor) {
             throw new Error('Flavor is required.');
         }
@@ -38,7 +39,16 @@ class AgensGraphRepository {
         this._graph = graph;
         this._user = user;
         this._password = password;
-        this.flavor = flavor;
+        this.flavor = flavor;        
+        this.ssl ={
+            ...parseSsl({
+                sslmode: sslmode || 'disable',                
+            }),
+            ca: ca?.file.response.key || undefined,
+            key: key?.file.response.key || undefined,
+            cert: cert?.file.response.key || undefined,
+            rejectUnauthorized: false, 
+        };
     }
 
     static async getConnection({
@@ -48,7 +58,8 @@ class AgensGraphRepository {
                                    graph,
                                    user,
                                    password,
-                                   flavor
+                                   flavor,                                   
+                                   ssl,
                                } = {},
                                closeConnection = true) {
         const client = new pg.Client({
@@ -57,6 +68,7 @@ class AgensGraphRepository {
                 host,
                 database,
                 port,
+                ssl,
             }
         )
         client.connect();
@@ -133,6 +145,7 @@ class AgensGraphRepository {
             database: this._database,
             user: this._user,
             password: this._password,
+            ssl: this.ssl,
             max: PgConfig.max,
             idleTimeoutMillis: PgConfig.idleTimeoutMillis,
             connectionTimeoutMillis: PgConfig.connectionTimeoutMillis,
@@ -154,6 +167,7 @@ class AgensGraphRepository {
             password: this._password,
             graph: this._graph,
             flavor: this.flavor,
+            ssl: this.ssl,
         };
     }
 }

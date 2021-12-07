@@ -28,5 +28,6 @@ const featureController = new FeatureController();
 
 const router = Router();
 router.post("/uploadCSV", upload.single('file'), wrap(featureController.uploadCSV));
+router.post("/uploadKEY", upload.single('key'), wrap(featureController.uploadKEY));
 
 export default router;

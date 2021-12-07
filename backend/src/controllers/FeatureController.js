@@ -20,6 +20,7 @@
 import sessionService from "../services/sessionService";
 import {parse} from "csv/lib/sync";
 import {createEdge, createVertex} from "../util/JsonBuilder";
+import fs from 'fs';
 
 class FeatureController {
     async uploadCSV(req, res, next) {
@@ -72,6 +73,11 @@ class FeatureController {
             res.status(200).json({}).end();
         }
     }
+
+    async uploadKEY(req, res, next) {                
+        res.status(200).json({ key: req.file.buffer.toString()});
+    }
+
 }
 
 export default FeatureController;

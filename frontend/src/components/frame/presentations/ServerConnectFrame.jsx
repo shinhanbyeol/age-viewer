@@ -17,10 +17,10 @@
  * under the License.
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
-  Button, Col, Form, Input, InputNumber, Row, Select,
+  Button, Col, Form, Input, InputNumber, Row, Select, Upload, Tabs, message,
 } from 'antd';
 import { useDispatch } from 'react-redux';
 import Frame from '../Frame';
@@ -65,6 +65,8 @@ const ServerConnectFrame = ({
       dispatch(addAlert('ErrorServerConnectFail', response.error.message));
     }
   });
+  const { TabPane } = Tabs;
+  const [sslMode, sslModeSetter] = useState(false);
 
   return (
     <Frame
@@ -84,33 +86,93 @@ const ServerConnectFrame = ({
               layout="vertical"
               onFinish={(values) => connectToDatabase(values)}
             >
-              <Form.Item name="flavor" label="Database Type" rules={[{ required: true }]}>
-                <Select
-                  placeholder="Select a flavor of Database"
-                  allowClear
-                >
-                  <Select.Option value="AGE">Apache AGE</Select.Option>
-                  <Select.Option value="AGENS">AgensGraph</Select.Option>
-                </Select>
-              </Form.Item>
-              <Form.Item name="host" label="Connect URL" rules={[{ required: true }]}>
-                <Input placeholder="192.168.0.1" />
-              </Form.Item>
-              <Form.Item name="port" label="Connect Port" rules={[{ required: true }]}>
-                <InputNumber placeholder="5432" className={styles.FullWidth} />
-              </Form.Item>
-              <Form.Item name="database" label="Database Name" rules={[{ required: true }]}>
-                <Input placeholder="postgres" />
-              </Form.Item>
-              <Form.Item name="graph" label="Graph Path" rules={[{ required: true }]}>
-                <Input placeholder="postgres" />
-              </Form.Item>
-              <Form.Item name="user" label="User Name" rules={[{ required: true }]}>
-                <Input placeholder="postgres" />
-              </Form.Item>
-              <Form.Item name="password" label="Password" rules={[{ required: true }]}>
-                <Input.Password placeholder="postgres" />
-              </Form.Item>
+              <Tabs defaultActiveKey="1" onChange={() => {}}>
+                <TabPane tab="General" key="1">
+                  <Form.Item name="flavor" label="Database Type" rules={[{ required: true }]}>
+                    <Select
+                      placeholder="Select a flavor of Database"
+                      allowClear
+                    >
+                      <Select.Option value="AGE">Apache AGE</Select.Option>
+                      <Select.Option value="AGENS">AgensGraph</Select.Option>
+                    </Select>
+                  </Form.Item>
+                  <Form.Item name="host" label="Connect URL" rules={[{ required: true }]}>
+                    <Input placeholder="192.168.0.1" />
+                  </Form.Item>
+                  <Form.Item name="port" label="Connect Port" rules={[{ required: true }]}>
+                    <InputNumber placeholder="5432" className={styles.FullWidth} />
+                  </Form.Item>
+                  <Form.Item name="database" label="Database Name" rules={[{ required: true }]}>
+                    <Input placeholder="postgres" />
+                  </Form.Item>
+                  <Form.Item name="graph" label="Graph Path" rules={[{ required: true }]}>
+                    <Input placeholder="postgres" />
+                  </Form.Item>
+                  <Form.Item name="user" label="User Name" rules={[{ required: true }]}>
+                    <Input placeholder="postgres" />
+                  </Form.Item>
+                  <Form.Item name="password" label="Password" rules={[{ required: !sslMode }]}>
+                    <Input.Password placeholder="postgres" />
+                  </Form.Item>
+                </TabPane>
+                <TabPane tab="SSL" key="2">
+                  <Form.Item name="sslmode" label="SSL mode" rules={[{ required: true }]}>
+                    <Select
+                      placeholder="Select a flavor of Database"
+                      allowClear
+                      defaultValue="disable"
+                      onChange={(value) => {
+                        if (value === 'disable' || value === 'allow') {
+                          sslModeSetter(false);
+                        } else {
+                          sslModeSetter(true);
+                        }
+                      }}
+                    >
+                      <Select.Option value="disable">Disable</Select.Option>
+                      <Select.Option value="allow">Allow</Select.Option>
+                      <Select.Option value="prefer">Prefer</Select.Option>
+                      <Select.Option value="require">Require</Select.Option>
+                      <Select.Option value="verify-ca">Verify-ca</Select.Option>
+                      <Select.Option value="verify-full">Verify-full</Select.Option>
+                    </Select>
+                  </Form.Item>
+                  <Form.Item name="cert" label="Client Certificate" rules={[{ required: false }]}>
+                    <Upload
+                      name="key"
+                      action="/api/v1/feature/uploadKEY"
+                      onChange={(info) => { if (info.file.status === 'done') message.success('success'); }}
+                      multiple={false}
+                      disabled={!sslMode}
+                    >
+                      <Button>file select</Button>
+                    </Upload>
+                  </Form.Item>
+                  <Form.Item name="key" label="Client Certificate Key" rules={[{ required: false }]}>
+                    <Upload
+                      name="key"
+                      action="/api/v1/feature/uploadKEY"
+                      onChange={(info) => { if (info.file.status === 'done') message.success('success'); }}
+                      multiple={false}
+                      disabled={!sslMode}
+                    >
+                      <Button>file select</Button>
+                    </Upload>
+                  </Form.Item>
+                  <Form.Item name="ca" label="Root Certificate" rules={[{ required: false }]}>
+                    <Upload
+                      name="key"
+                      action="/api/v1/feature/uploadKEY"
+                      onChange={(info) => { if (info.file.status === 'done') message.success('success'); }}
+                      multiple={false}
+                      disabled={!sslMode}
+                    >
+                      <Button>file select</Button>
+                    </Upload>
+                  </Form.Item>
+                </TabPane>
+              </Tabs>
               <Form.Item>
                 <Button type="primary" htmlType="submit">Connect</Button>
               </Form.Item>
