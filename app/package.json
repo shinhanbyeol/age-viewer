@@ -15,13 +15,13 @@
     "prebuild": "cd .. && npm run build-back && npm run build-front",
     "prebundle": "cp -r ../backend/build ./resources/backend/build && cp -r ../frontend/build ./resources/frontend/build",
     "bundle:test": "npm-run-all clean prebuild prebundle && electron electronApp.js",
-    "bundle:osx": "npm-run-all clean prebuild prebundle &&electron-builder build --mac",
-    "bundle:linux": "npm-run-all clean prebuild prebundle &&npm run build:linux32 && npm run build:linux64",
-    "bundle:linux32": "npm-run-all clean prebuild prebundle &&electron-builder build --linux --ia32",
-    "bundle:linux64": "npm-run-all clean prebuild prebundle &&electron-builder  build --linux --x64",
-    "bundle:win": "npm-run-all clean prebuild prebundle &&npm run build:win32 && npm run build:win64",
-    "bundle:win32": "npm-run-all clean prebuild prebundle &&electron-builder  build --win --ia32",
-    "bundle:win64": "npm-run-all clean prebuild prebundle &&electron-builder  build --win --x64"
+    "bundle:osx": "npm-run-all clean prebuild prebundle && electron-builder build --mac",
+    "bundle:linux": "npm-run-all clean prebuild prebundle && npm run build:linux32 && npm run build:linux64",
+    "bundle:linux32": "npm-run-all clean prebuild prebundle && electron-builder build --linux --ia32",
+    "bundle:linux64": "npm-run-all clean prebuild prebundle && electron-builder  build --linux --x64",
+    "bundle:win": "npm-run-all clean prebuild prebundle && npm run build:win32 && npm run build:win64",
+    "bundle:win32": "npm-run-all clean prebuild prebundle && electron-builder  build --win --ia32",
+    "bundle:win64": "npm-run-all clean prebuild prebundle && electron-builder  build --win --x64"
   },
   "dependencies": {
     "@babel/runtime": "^7.19.0",
