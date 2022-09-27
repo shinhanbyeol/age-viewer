@@ -11,7 +11,7 @@
   ],
   "main": "electronApp.js",
   "scripts": {
-    "clean": "mkdir -p ./resources/backend && mkdir -p dir ./resources/frontend && rm -rf ./resources/backend/build && rm -rf ./resources/frontend/build",
+    "clean": "mkdir -p ./resources/backend && mkdir -p ./resources/frontend && rm -rf ./resources/backend/build && rm -rf ./resources/frontend/build",
     "prebuild": "cd .. && npm run build-back && npm run build-front",
     "prebundle": "cp -r ../backend/build ./resources/backend/build && cp -r ../frontend/build ./resources/frontend/build",
     "bundle:test": "npm-run-all clean prebuild prebundle && electron electronApp.js",
