@@ -13,7 +13,7 @@
   "scripts": {
     "clean": "mkdir -p ./resources/backend && mkdir -p ./resources/frontend && rm -rf ./resources/backend/build && rm -rf ./resources/frontend/build",
     "prebuild": "cd .. && npm run build-back && npm run build-front",
-    "prebundle": "cp -r ../backend/build ./resources/backend/build && cp -r ../frontend/build ./resources/frontend/build",
+    "prebundle": "cp -r ../backend/build ./resources/backend/build && cp -r ../backend/sql ./resources/backend/sql && cp -r ../frontend/build ./resources/frontend/build",
     "bundle:test": "npm-run-all clean prebuild prebundle && electron electronApp.js",
     "bundle:osx": "npm-run-all clean prebuild prebundle && electron-builder build --mac",
     "bundle:linux": "npm-run-all clean prebuild prebundle && npm run build:linux32 && npm run build:linux64",
