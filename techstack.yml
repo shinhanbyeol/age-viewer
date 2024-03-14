@@ -1,0 +1,1185 @@
+repo_name: shinhanbyeol/age-viewer
+report_id: a10fbc0772e5c4df55902a8381acfee8
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T04:37:43+00:00'
+requested_by: JoshInnis
+provider: github
+branch: main
+detected_tools_count: 86
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer
+  detection_source: Repo Metadata
+- name: EJS
+  description: An Embedded JavaScript templating Language
+  website_url: https://ejs.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-27 04:17:59.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/sql/get_role/default.sql
+  detection_source: backend/sql/get_role/default.sql
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-02-24 04:56:45.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-27 04:17:59.000000000 Z
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 4.12.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-23 07:38:34.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 14.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-03-25 05:09:35.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-08-31 06:10:29.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-23 07:38:34.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-08-31 06:10:29.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-27 04:17:59.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/.babelrc
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-05-06 01:50:51.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: KarlJeong
+  last_updated_on: 2020-09-10 04:41:04.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 5.59.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-23 07:38:34.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/.github/workflows/node.js.yml
+  detection_source: ".github/workflows/node.js.yml"
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-06-10 07:38:07.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 8.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-27 04:17:59.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-08-31 06:10:29.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.21.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/package.json
+  last_updated_by: shinhanbyeol
+  last_updated_on: 2021-06-10 07:01:12.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-27 04:17:59.000000000 Z
+- name: ANTLR
+  description: Posts by Terence Parr, The ANTLR guy, about ANTLR, StringTemplate,
+    parsing, and general computer language cruft.
+  website_url: http://www.antlr.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8585/a159037c4838e54e93d9f630a295c396_normal.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer
+  detection_source: Repo Metadata
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@babel/node"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/node
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.12.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@babel/register"
+  description: Babel require hook
+  package_url: https://www.npmjs.com/@babel/register
+  version: 7.12.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@fortawesome/fontawesome-svg-core"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/fontawesome-svg-core
+  version: 1.2.34
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: "@fortawesome/free-brands-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-brands-svg-icons
+  version: 5.15.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18314/default_8c7316b1ad57adb78204233fc4608152c3b49ac6.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-02-18 03:52:16.000000000 Z
+- name: "@fortawesome/free-regular-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-regular-svg-icons
+  version: 5.15.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18157/default_63cbe387694d6d77dde61448de98c6bd2a9b18de.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-02-18 03:52:16.000000000 Z
+- name: "@fortawesome/free-solid-svg-icons"
+  description: The iconic font, CSS, and SVG framework
+  package_url: https://www.npmjs.com/@fortawesome/free-solid-svg-icons
+  version: 5.15.2
+  license: CC-BY-4.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-02-18 03:52:16.000000000 Z
+- name: "@fortawesome/react-fontawesome"
+  description: Official React component for Font Awesome 5
+  package_url: https://www.npmjs.com/@fortawesome/react-fontawesome
+  version: 0.1.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16936/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-08-31 06:10:29.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: antd
+  description: An enterprise-class UI design language and React components implementation
+  package_url: https://www.npmjs.com/antd
+  version: 4.12.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16201/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-02-19 07:41:17.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: babel-preset-env
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/babel-preset-env
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15814/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: camelcase
+  description: 'Convert a dash/dot/underscore/space separated string to camelCase
+    or PascalCase: `foo-bar` → `fooBar`'
+  package_url: https://www.npmjs.com/camelcase
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16559/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: cpy-cli
+  description: Copy files
+  package_url: https://www.npmjs.com/cpy-cli
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16964/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: csv
+  description: CSV parser with simple api
+  package_url: https://www.npmjs.com/csv
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-27 04:17:59.000000000 Z
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: eslint-plugin-babel
+  description: An eslint rule plugin companion to babel-eslint
+  package_url: https://www.npmjs.com/eslint-plugin-babel
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15988/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.24.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-08-31 06:10:29.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-08-31 06:10:29.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.25.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: file-saver
+  description: An HTML5 saveAs
+  package_url: https://www.npmjs.com/file-saver
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16795/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: gh-pages
+  description: Publish to a gh-pages branch on GitHub
+  package_url: https://www.npmjs.com/gh-pages
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15967/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: http-status
+  description: Interact with HTTP status code
+  package_url: https://www.npmjs.com/http-status
+  version: 1.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17707/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: json2csv
+  description: Convert JSON to CSV
+  package_url: https://www.npmjs.com/json2csv
+  version: 5.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17719/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: pegjs
+  description: Parser generator for JavaScript
+  package_url: https://www.npmjs.com/pegjs
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16881/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: hwha
+  last_updated_on: 2020-07-27 04:17:59.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Hanbyeol Shin
+  last_updated_on: 2021-10-01 02:04:54.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/src/lib/cytoscape-cxtmenu/package.json
+  detection_source: frontend/src/lib/cytoscape-cxtmenu/package.json
+  last_updated_by: ms.kwak
+  last_updated_on: 2021-02-08 05:34:16.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  version: 11.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: shinhanbyeol
+  last_updated_on: 2021-06-10 07:01:12.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 8.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: shinhanbyeol
+  last_updated_on: 2021-06-10 07:01:12.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
+- name: winston-daily-rotate-file
+  description: A transport for winston which logs to a rotating file each day
+  package_url: https://www.npmjs.com/winston-daily-rotate-file
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17407/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/shinhanbyeol/age-viewer/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Alex Kwak
+  last_updated_on: 2021-11-17 03:50:43.000000000 Z
